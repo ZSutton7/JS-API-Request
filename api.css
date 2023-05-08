@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #0a5f6c, #a4f3ea);
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+}
+
+.header p {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.jokes {
+    background-color: #1e289cf6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border: 50px;
+    border-radius: 50px;
+}
+
+.jokes h1 {
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f4d160;
+    border: none;
+    cursor: pointer;
+}
